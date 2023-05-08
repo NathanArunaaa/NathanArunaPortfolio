@@ -91,6 +91,14 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/nap",
+            "netlifyToken": "",
+            "siteId": "fd8c53f7-f6e7-4c9b-af42-92a366412a1a"
+          }
         }
       }
     }
