@@ -1,9 +1,12 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
-  theme: {
-    extend: {},
+	content: ["./src/**/*.{html,js}",  "./node_modules/flowbite/**/*.js"],
+	theme: {
+		extend: {},
+	},
+  daisyui: {
+    themes: ["night"],
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
 }
-
