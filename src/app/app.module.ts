@@ -9,9 +9,12 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ToolsComponent } from './tools/tools.component';
 import { TopnavComponent } from './topnav/topnav.component';
 import { AwardsComponent } from './awards/awards.component';
+<<<<<<< HEAD
 import { SpinnerComponent } from './spinner/spinner.component';
 import { LoadingInterceptor } from './loading.interceptor';
 import { GalleryComponent } from './gallery/gallery.component';
+=======
+>>>>>>> b8e1b267be629073fe5b37d8221660a51ee97432
 
 
 @NgModule({
@@ -22,8 +25,11 @@ import { GalleryComponent } from './gallery/gallery.component';
     ToolsComponent,
     TopnavComponent,
     AwardsComponent,
+<<<<<<< HEAD
     SpinnerComponent,
     GalleryComponent
+=======
+>>>>>>> b8e1b267be629073fe5b37d8221660a51ee97432
   ],
   imports: [
     BrowserModule,
@@ -31,9 +37,6 @@ import { GalleryComponent } from './gallery/gallery.component';
     HttpClientModule
   ],
   providers: [
-    {
-      provide: HTTP_INTERCEPTORS, useClass: LoadingInterceptor, multi: true
-    }
   ],
   bootstrap: [AppComponent]
 })
