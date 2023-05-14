@@ -11,6 +11,7 @@ import { TopnavComponent } from './topnav/topnav.component';
 import { AwardsComponent } from './awards/awards.component';
 import { SpinnerComponent } from './spinner/spinner.component';
 import { LoadingInterceptor } from './loading.interceptor';
+import { GalleryComponent } from './gallery/gallery.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { LoadingInterceptor } from './loading.interceptor';
     ToolsComponent,
     TopnavComponent,
     AwardsComponent,
-    SpinnerComponent
+    SpinnerComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
