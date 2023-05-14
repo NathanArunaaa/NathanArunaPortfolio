@@ -9,8 +9,6 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ToolsComponent } from './tools/tools.component';
 import { TopnavComponent } from './topnav/topnav.component';
 import { AwardsComponent } from './awards/awards.component';
-import { SpinnerComponent } from './spinner/spinner.component';
-import { LoadingInterceptor } from './loading.interceptor';
 
 
 @NgModule({
@@ -21,7 +19,6 @@ import { LoadingInterceptor } from './loading.interceptor';
     ToolsComponent,
     TopnavComponent,
     AwardsComponent,
-    SpinnerComponent
   ],
   imports: [
     BrowserModule,
@@ -29,9 +26,6 @@ import { LoadingInterceptor } from './loading.interceptor';
     HttpClientModule
   ],
   providers: [
-    {
-      provide: HTTP_INTERCEPTORS, useClass: LoadingInterceptor, multi: true
-    }
   ],
   bootstrap: [AppComponent]
 })
