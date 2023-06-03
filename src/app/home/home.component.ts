@@ -1,13 +1,32 @@
 import { Component, OnInit } from '@angular/core';
 import { SeoService } from './../seo.service';
 import { Title } from '@angular/platform-browser';
+import  home  from '../../assets/home.json';
+
+interface homeData {
+  image: String;
+  date: String;
+  title: String;
+  description: String;
+  learnMore: String;
+  imagealt: String;
+
+
+}
+
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
+
+
+
 export class HomeComponent implements OnInit{
+
+  homeData: homeData[] = home;
+
 
   constructor(private seo: SeoService, private title: Title) {
 

@@ -17,11 +17,9 @@
     </svg>
   </div>
   <app-topnav></app-topnav>
-  <!-- Mobile menu, show/hide based on menu open state. -->
-
   <main>
     <div class="relative px-6 lg:px-8">
-      <div class="mx-auto max-w-3xl pt-20 pb-32 sm:pt-48 sm:pb-40">
+      <div class="mx-auto max-w-5xl pt-20 pb-32 sm:pt-48 sm:pb-40">
         <div>
 
           <div class=" sm:mb-8 sm:flex sm:justify-center">
@@ -52,47 +50,57 @@
                 Contact
                 <span class="text-indigo-200" aria-hidden="true">&rarr;</span>
               </a>
+            </div>
+            <div class="p-10 "></div>
+            <div class="divider pb-20"></div>
 
 
+            <div *ngFor="let homeData of homeData">
+            <div class="mt-8 lg:-mx-6 lg:flex lg:items-center">
+              <img class="object-cover w-full lg:mx-6 lg:w-1/2 rounded-xl h-72 lg:h-96" src="{{homeData.image}}" alt="{{homeData.imagealt}}">
+
+              <div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6 ">
+                <p class="text-sm text-blue-500 uppercase">{{homeData.date}}</p>
+
+                <a href="#"
+                  class="block mt-4 text-2xl font-semibold text-gray-800 hover:underline dark:text-white md:text-3xl">
+                  {{homeData.title}}
+                </a>
+
+                <p class="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
+                  {{homeData.description}}
+
+                  <a href="{{homeData.learnMore}}"
+                    class="inline-block mt-2 text-blue-500 underline hover:text-blue-400">Learn More</a>
+              </div>
             </div>
 
-            <div class="p-10 "></div>
+          </div>
 
-            <div class="divider "></div>
+
+
             <div class="p-10 "></div>
             <div class="flex justify-center">
-
               <section class="bg-white dark:bg-inherit">
 
                 <div class="pr-10 container  mx-auto">
                   <h1 class="text-4xl font-bold tracking-normal sm:text-center sm:text-4xl">Special Thanks To My Mentor
                     For Supporting Me
                   </h1>
-                  <p class="mt-6 text-lg leading-8 text-gray-500 sm:text-center">Lester Jackson has been really helpful to me as
+                  <p class="mt-6 text-lg leading-8 text-gray-500 sm:text-center">Lester Jackson has been really helpful
+                    to me as
                     I advance in my career. He has provided me with numerous opportunity to enhance my resume and study.
-
                 </div>
-
                 <div class="p-3"></div>
-
                 <div class="flex justify-center">
-
                   <video class="rounded-lg" width="400" height="400" controls>
-                    <source src="assets/VideoFromMentor.MP4" type="video/mp4">
+                    <source src="https://www.youtube.com/watch?v=1Eu0aAlMMMI" type="video/mp4">
                     Your browser does not support the video tag.
                   </video>
                 </div>
               </section>
             </div>
-
             <div class="mx-auto grid max-w-6xl  grid-cols-1 gap-6 p-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2">
-
-
-
-
-
-
-
             </div>
           </div>
           <div
