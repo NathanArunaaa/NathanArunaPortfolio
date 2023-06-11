@@ -9,6 +9,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ToolsComponent } from './tools/tools.component';
 import { TopnavComponent } from './topnav/topnav.component';
 import { AwardsComponent } from './awards/awards.component';
+import { PublicationsComponent } from './publications/publications.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { AwardsComponent } from './awards/awards.component';
     ToolsComponent,
     TopnavComponent,
     AwardsComponent,
+    PublicationsComponent,
   ],
   imports: [
     BrowserModule,
