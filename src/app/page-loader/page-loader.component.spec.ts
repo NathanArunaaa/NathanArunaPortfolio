@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ToolsComponent } from './tools.component';
+import { PageLoaderComponent } from './page-loader.component';
 
-describe('ToolsComponent', () => {
-  let component: ToolsComponent;
-  let fixture: ComponentFixture<ToolsComponent>;
+describe('PageLoaderComponent', () => {
+  let component: PageLoaderComponent;
+  let fixture: ComponentFixture<PageLoaderComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ToolsComponent ]
+      declarations: [ PageLoaderComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ToolsComponent);
+    fixture = TestBed.createComponent(PageLoaderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
