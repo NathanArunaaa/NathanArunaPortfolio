@@ -1,11 +1,20 @@
 [
   {
     "image": "https://user-images.githubusercontent.com/88948653/241126694-8ca93461-b74a-4c96-a703-82211f8ffc81.jpg",
-    "date": "2023-05-14",
+    "date": "2023-05",
     "title": "Regeneron ISEF 2023",
     "description": "Each May, more than 1500 students from roughly 70 countries and territories compete in the fair for scholarships, tuition grants, internships, scientific field trips and the grand prizes, including one $75,000 and two $50,000 college scholarships.",
     "learnMore": "https://www.facebook.com/groups/248102871229530",
     "imagealt": "Nathan Aruna Regeneron ISEF 2023"
+  },
+  {
+    "image": "https://scontent.flhr12-1.fna.fbcdn.net/v/t39.30808-6/342528178_896507174772329_3737280787962783057_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=28-8HL8icSYAX9cgym7&_nc_ht=scontent.flhr12-1.fna&oh=00_AfAPrGAPt1i7CjDVYqJbxO4_y-rKBaIHMLRZxoqE_jdwBA&oe=64AA759C",
+    "date": "2023-04",
+    "title": "Quebec Finals 2023",
+    "description": "The Super Expo-sciences Hydro-Québec, the Quebec final, brings together the best projects in Quebec, from the 12 regional finals.",
+    "learnMore": "https://technoscience.ca/en/expo-sciences/finals/quebec/",
+    "imagealt": "Nathan Aruna Quebec Final 2023"
   }
+
 
 ]
