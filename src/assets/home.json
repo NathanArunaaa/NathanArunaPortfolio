@@ -1,5 +1,13 @@
 [
   {
+    "image": "https://mila.quebec/wp-content/uploads/2019/01/InaugurationMila_web_credMaryseBoyce_9771.jpg",
+    "date": "2023-04",
+    "title": "Mila Internship",
+    "description": "A chance to developer my skills in AI and Machine Learning, working along side some of the best researchers and tech institutions in the world.",
+    "learnMore": "https://mila.quebec/en/",
+    "imagealt": "Nathan Aruna Portfolio Mila Internship"
+  },
+  {
     "image": "https://user-images.githubusercontent.com/88948653/241126694-8ca93461-b74a-4c96-a703-82211f8ffc81.jpg",
     "date": "2023-05",
     "title": "Regeneron ISEF 2023",
@@ -15,6 +23,7 @@
     "learnMore": "https://technoscience.ca/en/expo-sciences/finals/quebec/",
     "imagealt": "Nathan Aruna Quebec Final 2023"
   }
+  
 
 
 ]
