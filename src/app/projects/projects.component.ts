@@ -1,7 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { SeoService } from './../seo.service';
 import { Title } from '@angular/platform-browser';
+import  project  from '../../assets/projects.json';
 
+interface projectData {
+  title: String;
+  link: String;
+
+
+}
 @Component({
   selector: 'app-projects',
   templateUrl: './projects.component.html',
@@ -9,10 +16,11 @@ import { Title } from '@angular/platform-browser';
 })
 export class ProjectsComponent {
 
+  projectData: projectData[] = project;
+
   constructor(private seo: SeoService, private title: Title) {
 
   }
-
 
   ngOnInit(): void {
 
