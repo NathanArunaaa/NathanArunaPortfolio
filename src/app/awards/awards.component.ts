@@ -26,7 +26,7 @@ export class AwardsComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.title.setTitle('Nathan Aruna | Home');
+    this.title.setTitle('Nathan Aruna | Awards');
 
     this.seo.generateTags({
       title: 'Nathan Aruna | Awards',
